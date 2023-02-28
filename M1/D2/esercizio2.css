@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{width: 150px;
+    margin: auto;
+}
+.primalinea{
+    border-color:rgb(252, 230, 205);
+    margin-bottom: 0;
+}
+.divisore1{
+    background-color:rgb(252, 230, 205)
+}
+main{
+    width: 50%;
+    margin: auto;
+}
+.divisore2{
+    color: red;
+    text-align: left;
+}
+h3{
+    text-align: left;
+}
+.divisore3{
+    text-align: left;
+}
+hr{
+    border-color: aqua;
+}
+.divisore4{
+    text-align: left;
+}
+footer{
+    text-align: left;
+    margin-left: 400px;
+}
