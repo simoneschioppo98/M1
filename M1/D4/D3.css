@@ -1,0 +1,73 @@
+.corpo{
+    background-color: rgb(236, 233, 233);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+#intestazione{
+    color: white;
+    background-color: rgb(55, 71, 90);
+    font-size: 15px;
+    word-spacing: 10px;
+}
+.orange{
+    text-align: center;
+    background-color: rgb(254, 189, 105);
+    margin: 20px;
+    color: white;
+}
+.span{
+    background-color: white;
+    margin-left: 20px;
+}
+.bg_image{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-image: url(bg-image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding: 3%;
+}
+.images{
+    margin-left: 20px;
+    margin-right: 40px;
+    background-color: white;
+}
+.imageborder{
+    border-radius: 10px;
+    margin: 4px;
+}
+.visore , .audio {
+    margin-top: 20px;
+    margin-left: 21px;
+}
+.gaming_audio{
+    text-align: center;
+}
+.back{
+    background-color: rgb(55, 71, 90);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding:10px;
+}
+.finale{
+    background-color: rgb(35, 47, 72);
+    text-align: center;
+    padding: 2%;
+    height: 50px;
+}
+.D4{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: white;
+    width: 330px;
+    height: 350px;
+}
+a{
+    position:  relative; bottom: -30px;
+}
