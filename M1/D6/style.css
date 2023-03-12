@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenitore{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid black;
+    top: 100px;
+   box-shadow: none;
+  overflow: hidden;
+}
+
+
+.contenitore:hover{
+    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.contenitore:hover .img{
+    filter:opacity(0.7)
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+.button{
+    position: absolute;
+    /* z-index: 2; */
+    left: 231px;
+    top: -10px;
+}
+
+.save{
+    position: absolute;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    transition: transform 1s ease;
+    top: -30px;
+    font-family: roboto,sans-serif;
+}
+
+.contenitore:hover .button .save{
+  transform: translateY(40px);
+
+}
+
+.fondo{
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    transition: transform 1s ease;
+}
+
+.contenitore:hover .fondo {
+    transform: translateY(-30px);
+}
+
+.btn1{
+    width: 150px;
+    border-radius: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: roboto,sans-serif;
+}
+
+.btn2{
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+
+.btn3{
+    border-radius: 20px;
+    font-size: 15px;
+}
