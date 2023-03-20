@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+div.navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    padding: 40px;
+    z-index: 9999;
+    border-bottom: 1px solid grey;
+    background-color: white;
+}
+
+
+.medium>i{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.medium>span{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.membership>i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.membership>button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn1{
+    border-radius: 50px;
+    background-color: white;
+}
+
+
+.btn1:hover{
+    background-color:rgb(194, 180, 180);
+    transition: all 1s ease;
+}
+
+.btn1>a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+.btn1>a:hover{
+    color: black;
+    transition: all 1s ease;
+}
+
+.btn2{
+    border-radius: 50%;
+    width: 27px;
+    background-color: orange;
+}
+
+.btn2>a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0 40px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 125px;
+
+}
+
+.left-container{
+display: flex;
+width: 100%;
+height: 100%;
+}
+
+.right{
+    width: 30%;
+    height: 1300px;
+    margin-top: 125px;
+    border-left: 1px solid grey;
+}
+
+.left{
+    width: 75%;
+    height: 100%;
+}
+
+.image-content{
+    margin-top: 50px;
+    width: 20%;
+    height: 100px;
+    background-image: url(car.jpeg);
+    background-size: cover;
+}
+
+
+
+.upper-line>span{
+    margin: 5px;
+    font-weight: 500;
+    color: grey;
+}
+
+.upper-line>span:hover{
+    cursor: pointer;
+    transition: all 1s ease;
+    color: black;
+    font-weight: bold;
+}
+
+.upper-line>hr{
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.mid-line{
+    display: flex;
+    margin-top: 25px;
+
+}
+.mid-line>img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.mid-line>span{
+    color: rgb(48, 45, 45);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.internal>span{
+font-weight: bold;
+cursor: pointer;
+}
+
+.text-link{
+    margin-top: 10px;
+}
+
+.text-link>span{
+    color: grey;
+    cursor: pointer;
+}
+
+
+.baseline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.order1{
+    display: flex;
+}
+
+.order1>div{
+    margin-right: 15px;
+    color: grey;
+}
+
+
+.order1>div:hover{
+    background-color: rgb(194, 192, 192);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease;
+    color: black;
+}
+
+.order2{
+    display: flex;
+}
+
+.order2>div{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.right-divisor{
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+
+.null{
+    width: 100%;
+    height: 40px;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid grey;
+}
+
+.right-content-up{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.right-content-middle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right-content-twitter{
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.right-content-twitter:hover{
+    border: 1px solid black;
+    background-color: rgb(172, 169, 169);
+    transition: all 1s ease ;
+}
+
+.right-content-twitter>a{
+    text-decoration: none;
+}
+
+.maybe-later{
+    margin-top: 10px;
+    color: grey;
+}
+
+.maybe-later>a{
+    text-decoration: none;
+    color: grey;
+}
+
+.right-middle-content{
+    border: 1px solid white;
+    width: 100%;
+    height: 200px;
+}
+
+.topics{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.links{
+    margin: 5px;
+    border: 1px solid rgb(172, 167, 167);
+    background-color: rgb(172, 167, 167);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.links>a{
+    text-decoration: none;
+    color: black;
+}
+
+.topics>div:hover{
+    color: grey;
+    transition: all 1s ease;
+}
+
+.follow{
+    width: 100%;
+    height: 300px;
+}
+
+.follower{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+}
+
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lessig>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.lessig{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 15px;
+}
+
+.text>span:last-child{
+    color: grey;
+}
+
+.social{
+    margin-left: 25px;
+}
+
+.social>button{
+    border-radius: 50px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-color: grey;
+}
+
+.space{
+    margin: 5px;
+}
+
+.suggestions{
+    width: 100%;
+    height: 20px;
+    text-align: left;
+}
+
+.suggestions>a{
+    color: green;
+    text-decoration: none;
+}
+
+.reading-list{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+.reading-list>div:last-child{
+    margin-top: 25px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+}
+
+.footer>div>a{
+    margin: 5px;
+    color: grey;
+    text-decoration: none;
+}
